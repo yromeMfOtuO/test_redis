@@ -1,1 +1,3 @@
 .idea
+redis_lua/script_upload.py
+test_reids.ipynb
