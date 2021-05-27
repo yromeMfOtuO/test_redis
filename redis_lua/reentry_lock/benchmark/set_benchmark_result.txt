@@ -1,0 +1,63 @@
+====== SET ======
+  100000 requests completed in 42.00 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 900 1 300 10 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+0.00% <= 13 milliseconds
+0.01% <= 14 milliseconds
+0.65% <= 15 milliseconds
+4.97% <= 16 milliseconds
+14.10% <= 17 milliseconds
+23.45% <= 18 milliseconds
+32.56% <= 19 milliseconds
+41.69% <= 20 milliseconds
+52.45% <= 21 milliseconds
+63.75% <= 22 milliseconds
+73.40% <= 23 milliseconds
+82.67% <= 24 milliseconds
+89.19% <= 25 milliseconds
+93.07% <= 26 milliseconds
+95.29% <= 27 milliseconds
+96.87% <= 28 milliseconds
+98.15% <= 29 milliseconds
+98.91% <= 30 milliseconds
+99.27% <= 31 milliseconds
+99.46% <= 32 milliseconds
+99.59% <= 33 milliseconds
+99.71% <= 34 milliseconds
+99.79% <= 35 milliseconds
+99.84% <= 36 milliseconds
+99.86% <= 37 milliseconds
+99.88% <= 38 milliseconds
+99.90% <= 39 milliseconds
+99.92% <= 40 milliseconds
+99.93% <= 41 milliseconds
+99.93% <= 42 milliseconds
+99.94% <= 43 milliseconds
+99.94% <= 45 milliseconds
+99.95% <= 48 milliseconds
+99.95% <= 51 milliseconds
+99.95% <= 61 milliseconds
+99.95% <= 63 milliseconds
+99.96% <= 64 milliseconds
+99.96% <= 65 milliseconds
+99.96% <= 66 milliseconds
+99.97% <= 67 milliseconds
+99.97% <= 68 milliseconds
+99.97% <= 70 milliseconds
+99.98% <= 73 milliseconds
+99.98% <= 74 milliseconds
+99.98% <= 75 milliseconds
+99.99% <= 79 milliseconds
+100.00% <= 82 milliseconds
+100.00% <= 238 milliseconds
+100.00% <= 252 milliseconds
+2381.07 requests per second
+
+
+
+# 错怪了自己，看起来 docker 部署的 redis 的性能确实比较拉

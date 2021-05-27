@@ -1,0 +1,65 @@
+====== fa23ede5c337053507dbe90f32f30b033db16c17 1 weihao 13 ======
+  100000 requests completed in 41.97 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 900 1 300 10 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+0.00% <= 14 milliseconds
+0.56% <= 15 milliseconds
+4.09% <= 16 milliseconds
+13.14% <= 17 milliseconds
+22.59% <= 18 milliseconds
+32.34% <= 19 milliseconds
+42.53% <= 20 milliseconds
+54.24% <= 21 milliseconds
+64.94% <= 22 milliseconds
+74.25% <= 23 milliseconds
+83.18% <= 24 milliseconds
+89.31% <= 25 milliseconds
+93.42% <= 26 milliseconds
+96.24% <= 27 milliseconds
+97.78% <= 28 milliseconds
+98.54% <= 29 milliseconds
+98.90% <= 30 milliseconds
+99.14% <= 31 milliseconds
+99.27% <= 32 milliseconds
+99.38% <= 33 milliseconds
+99.49% <= 34 milliseconds
+99.59% <= 35 milliseconds
+99.66% <= 36 milliseconds
+99.74% <= 37 milliseconds
+99.79% <= 38 milliseconds
+99.81% <= 39 milliseconds
+99.85% <= 40 milliseconds
+99.87% <= 41 milliseconds
+99.90% <= 42 milliseconds
+99.92% <= 43 milliseconds
+99.92% <= 44 milliseconds
+99.93% <= 45 milliseconds
+99.93% <= 46 milliseconds
+99.93% <= 47 milliseconds
+99.94% <= 48 milliseconds
+99.95% <= 49 milliseconds
+99.95% <= 50 milliseconds
+99.95% <= 51 milliseconds
+99.97% <= 52 milliseconds
+99.97% <= 56 milliseconds
+99.98% <= 60 milliseconds
+99.98% <= 61 milliseconds
+99.98% <= 62 milliseconds
+99.99% <= 63 milliseconds
+99.99% <= 64 milliseconds
+99.99% <= 236 milliseconds
+99.99% <= 237 milliseconds
+99.99% <= 238 milliseconds
+100.00% <= 246 milliseconds
+100.00% <= 250 milliseconds
+100.00% <= 255 milliseconds
+100.00% <= 259 milliseconds
+2382.94 requests per second
+
+
+# 跟加锁没两样。。。

@@ -1,0 +1,87 @@
+====== 0a70120a05fd06408cbd7ddf343dfc42e74ec4c8 1 weihao 13 ======
+  100000 requests completed in 42.92 seconds
+  50 parallel clients
+  3 bytes payload
+  keep alive: 1
+  host configuration "save": 900 1 300 10 60 10000
+  host configuration "appendonly": no
+  multi-thread: no
+
+0.00% <= 14 milliseconds
+0.39% <= 15 milliseconds
+3.31% <= 16 milliseconds
+11.91% <= 17 milliseconds
+22.11% <= 18 milliseconds
+32.20% <= 19 milliseconds
+43.47% <= 20 milliseconds
+54.74% <= 21 milliseconds
+65.57% <= 22 milliseconds
+74.22% <= 23 milliseconds
+82.04% <= 24 milliseconds
+86.61% <= 25 milliseconds
+90.25% <= 26 milliseconds
+93.47% <= 27 milliseconds
+95.99% <= 28 milliseconds
+97.37% <= 29 milliseconds
+98.04% <= 30 milliseconds
+98.38% <= 31 milliseconds
+98.68% <= 32 milliseconds
+98.84% <= 33 milliseconds
+99.04% <= 34 milliseconds
+99.16% <= 35 milliseconds
+99.26% <= 36 milliseconds
+99.35% <= 37 milliseconds
+99.39% <= 38 milliseconds
+99.46% <= 39 milliseconds
+99.51% <= 40 milliseconds
+99.53% <= 41 milliseconds
+99.56% <= 42 milliseconds
+99.58% <= 43 milliseconds
+99.58% <= 44 milliseconds
+99.59% <= 45 milliseconds
+99.60% <= 46 milliseconds
+99.61% <= 47 milliseconds
+99.61% <= 48 milliseconds
+99.62% <= 54 milliseconds
+99.62% <= 56 milliseconds
+99.63% <= 58 milliseconds
+99.63% <= 63 milliseconds
+99.64% <= 65 milliseconds
+99.64% <= 66 milliseconds
+99.65% <= 67 milliseconds
+99.65% <= 68 milliseconds
+99.65% <= 72 milliseconds
+99.68% <= 74 milliseconds
+99.70% <= 75 milliseconds
+99.70% <= 76 milliseconds
+99.71% <= 79 milliseconds
+99.72% <= 86 milliseconds
+99.72% <= 87 milliseconds
+99.74% <= 89 milliseconds
+99.76% <= 124 milliseconds
+99.78% <= 132 milliseconds
+99.79% <= 135 milliseconds
+99.87% <= 136 milliseconds
+99.87% <= 138 milliseconds
+99.88% <= 139 milliseconds
+99.89% <= 140 milliseconds
+99.89% <= 141 milliseconds
+99.89% <= 142 milliseconds
+99.89% <= 143 milliseconds
+99.89% <= 144 milliseconds
+99.90% <= 147 milliseconds
+99.93% <= 148 milliseconds
+99.95% <= 149 milliseconds
+99.96% <= 152 milliseconds
+99.97% <= 153 milliseconds
+99.98% <= 239 milliseconds
+99.98% <= 241 milliseconds
+99.98% <= 249 milliseconds
+99.99% <= 250 milliseconds
+100.00% <= 256 milliseconds
+100.00% <= 257 milliseconds
+100.00% <= 262 milliseconds
+2329.97 requests per second
+
+# 感觉性能不佳？因为是 docker 启动 redis 的原因么？？
+
