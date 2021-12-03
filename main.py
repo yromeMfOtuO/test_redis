@@ -3,7 +3,7 @@ import redis
 
 def test_redis(name):
     with redis.Redis(host='host', port=6379, db=0, password='pwd') as r:
-        r.set('name', 'test')
+        r.set('name', name)
 
 
 if __name__ == '__main__':
